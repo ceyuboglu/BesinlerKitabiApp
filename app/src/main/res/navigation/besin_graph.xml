@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/besinListesiFragment"
-        android:name="com.example.besinlerkitabi.BesinListesiFragment"
+        android:name="com.example.besinlerkitabi.view.BesinListesiFragment"
         android:label="BesinListesiFragment" >
         <action
             android:id="@+id/action_besinListesiFragment_to_besinDetayiFragment"
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/besinDetayiFragment"
-        android:name="com.example.besinlerkitabi.BesinDetayiFragment"
+        android:name="com.example.besinlerkitabi.view.BesinDetayiFragment"
         android:label="BesinDetayiFragment" >
         <action
             android:id="@+id/action_besinDetayiFragment_to_besinListesiFragment"
